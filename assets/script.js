@@ -4,6 +4,8 @@ var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 document.getElementById('currentDay').innerHTML = date;
 
 
+var saveBtn = $(".saveBtn");
+
 // each time slot's color chanes depending on  if it is in the past, present, or future
 function timeSlotColor() {
     var hour = today.getHours()
@@ -22,3 +24,11 @@ function timeSlotColor() {
         }
     })
 };
+
+// clicking the save button for that time block saves the task in local storage
+saveBtn.on("click", function() {
+    var timeBlock = $(this).siblings(".hour").text();
+    var task = $(this).siblings(".tasks").val();
+
+    localStorage.setItem(timeBlock, task);
+});
