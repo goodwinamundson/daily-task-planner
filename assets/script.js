@@ -32,3 +32,19 @@ saveBtn.on("click", function() {
 
     localStorage.setItem(timeBlock, task);
 });
+
+// function to save items in local storage
+function saveTask() {
+
+    $(".hour").each(function() {
+        var currentTime = $(this).text();
+        var currentTask = localStorage.getItem(currentTime);
+
+        if(currentTask !== null) {
+            $(this).siblings(".tasks").val(currentTask);
+        }
+    });
+}
+
+timeSlotColor();
+saveTask();
