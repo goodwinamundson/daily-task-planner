@@ -1,4 +1,15 @@
-# Daily Task Planner
+<h1 align="center">Daily Task Planner<h1>
+  
+![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
+  
+ ## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+* [Credits](#credits)
 
 ## Description
 The purpose of this project was to create a scheduling application using HTML CSS and JavaScript that shows normal working hours as time color-coded time slots and allows the user to save tasks in each time slot which are saved even if the page is refreshed.
@@ -30,8 +41,10 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 
 THEN the saved events persist
-
-
+ 
+  
+## Installation 
+Users can clone the repository from GitHub and open the index file in the browser.
 
 ## Usage
 The project, hosted at 
@@ -43,10 +56,24 @@ can be accessed with the link:
 https://goodwinamundson.github.io/daily-task-planner/ 
 
 Visiting the second link should bring you to the functional website for the planner. 
+  
+## License 
+This project is licensed under MIT
+
+## Contributing 
+Contributors should read the installation section. 
+
+## Tests
+There are no tests for this application. 
+
+## Questions
+If you have any questions about this projects, please contact me directly at goodwinamundson@gmail.com. You can view more of my projects at https://github.com/goodwinamundson.
 
 ### Functional website should appear as in following screenshots: #
-[Image 1](./assets/images/liveapplication1.png)
-[Image 2](./assets/images/liveapplication2.png)
+
+  ![Image 2](./assets/images/liveapplication2.png)
+  ![Image 1](./assets/images/liveapplication1.png)
+
 
 
 ## Credits
